@@ -297,14 +297,14 @@ public class game extends javax.swing.JFrame {
             win=true;
             if(tries>=10){
                 
-                JOptionPane.showMessageDialog(JOptionPane,("You Win At Last !!! \nThe Number is: "+Number+"\nYou Tried: "+tries+" Times !!!"));
+                JOptionPane.showMessageDialog(JOptionPane,("You Win At Last !!! \nThe Number is: "+Number+"\nYou Tried: "+tries+" Times !!!\nRestart or Level Up to play again\n"));
                 guess=0;
                 mainTextf.setText(null);
                 tries=0;
                 }
             else
             {
-                JOptionPane.showMessageDialog(JOptionPane,("You Win !!! \nThe Number is: "+Number+"\nYou Tried: "+tries+" Times only !!!"));
+                JOptionPane.showMessageDialog(JOptionPane,("You Win !!! \nThe Number is: "+Number+"\nYou Tried: "+tries+" Times only !!!\nRestart or Level Up to play again\n"));
                 guess=0;
                 mainTextf.setText(null);
                 tries=0;
